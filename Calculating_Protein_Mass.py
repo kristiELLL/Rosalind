@@ -1,5 +1,7 @@
 #Solution N1
 
+# For this Task, there is aploaded "monoisotopic mass table", That we need to parse and create dictionary with a loop.
+
 my_dict = {}
 with open("masebi.txt", "r") as f:
     for line in f:
@@ -24,6 +26,7 @@ from Bio.SeqUtils.ProtParam import ProteinAnalysis
 X = ProteinAnalysis("SKADYEK")
 
 print("%0.3f" % X.molecular_weight())
+
 
 
 
